@@ -2,7 +2,7 @@ import 'package:hive/hive.dart';
 
 part 'task_model.g.dart';
 
-@HiveType(typeId: 0)
+@HiveType(typeId: 2)
 class Task extends HiveObject {
   Task({
     this.id,
@@ -41,7 +41,7 @@ class Task extends HiveObject {
   final int? taskCardId;
 }
 
-@HiveType(typeId: 1)
+@HiveType(typeId: 3)
 enum TaskStatus {
   @HiveField(0)
   todo(1),

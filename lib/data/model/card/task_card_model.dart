@@ -4,7 +4,7 @@ import '../task/task_model.dart';
 
 part 'task_card_model.g.dart';
 
-@HiveType(typeId: 0)
+@HiveType(typeId: 1)
 class TaskCard extends HiveObject {
   TaskCard({
     this.name,

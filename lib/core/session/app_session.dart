@@ -1,3 +1,3 @@
-class AppSession{
-  static const String langKey = "ar";
+class AppSession {
+  static const String langKey = 'en';
 }

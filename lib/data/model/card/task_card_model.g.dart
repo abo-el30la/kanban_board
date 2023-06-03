@@ -8,7 +8,7 @@ part of 'task_card_model.dart';
 
 class TaskCardAdapter extends TypeAdapter<TaskCard> {
   @override
-  final int typeId = 0;
+  final int typeId = 1;
 
   @override
   TaskCard read(BinaryReader reader) {

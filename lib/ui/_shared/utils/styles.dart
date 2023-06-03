@@ -3,28 +3,65 @@ import 'package:flutter/material.dart';
 import 'colors.dart';
 
 class AppTextStyles {
-  static const rightsStyle = TextStyle(color: AppColors.black, fontSize: 12, fontFamily: "AlmaraiRegular");
-  static const normalTextStyle = TextStyle(color: AppColors.black, fontSize: 16, fontFamily: "AlmaraiRegular");
-  static const headerTextStyle = TextStyle(color: AppColors.black, fontSize: 24, fontFamily: "Header",fontWeight: FontWeight.bold);
+  static const rightsStyle = TextStyle(
+    color: AppColors.black,
+    fontSize: 12,
+    fontFamily: "Almarai",
+    fontWeight: FontWeight.normal,
+  );
+  static const normalTextStyle = TextStyle(
+    color: AppColors.black,
+    fontSize: 16,
+    fontFamily: "Almarai",
+    fontWeight: FontWeight.normal,
+  );
 
-  static const titleStyle = TextStyle(color: AppColors.black, fontSize: 18, fontFamily: "AlmaraiBold");
+  static const titleStyle = TextStyle(
+    color: AppColors.black,
+    fontSize: 18,
+    fontFamily: "Almarai",
+    fontWeight: FontWeight.bold,
+  );
 
-  static const titleStyleWithPrimaryColor = TextStyle(height: 1.3,color: AppColors.primaryColor, fontSize: 17, fontFamily: "AlmaraiBold");
 
-  static const bannerStyle = TextStyle(color: AppColors.white, fontSize: 18, fontFamily: "AlmaraiBold");
+  static const bannerStyle = TextStyle(
+    color: AppColors.white,
+    fontSize: 18,
+    fontFamily: "Almarai",
+    fontWeight: FontWeight.bold,
+  );
 
+  static const hintStyle = TextStyle(
+    color: AppColors.black,
+    fontSize: 14,
+    fontFamily: "Almarai",
+    fontWeight: FontWeight.normal,
+  );
 
-  static const hintStyle = TextStyle(color: AppColors.black, fontSize: 14, fontFamily: "AlmaraiRegular");
+  static const inputStyle = TextStyle(
+    color: AppColors.black,
+    fontSize: 16,
+    fontFamily: "Almarai",
+    fontWeight: FontWeight.bold,
+  );
 
-  static const inputStyle = TextStyle(color: AppColors.black, fontSize: 16, fontFamily: "AlmaraiBold");
+  static const inputStyleError = TextStyle(
+    color: AppColors.errorRed,
+    fontSize: 10,
+    fontFamily: "Almarai",
+    fontWeight: FontWeight.normal,
+  );
 
-  static const inputStyleError = TextStyle(color: AppColors.errorRed, fontSize: 10, fontFamily: "AlmaraiRegular");
-
-  static const notificationCountStyle = TextStyle(color: AppColors.white, fontSize: 12, fontFamily: "AlmaraiBold");
+  static const notificationCountStyle = TextStyle(
+    color: AppColors.white,
+    fontSize: 12,
+    fontFamily: "Almarai",
+    fontWeight: FontWeight.bold,
+  );
 
   static final ButtonStyle raisedButtonStyle = ElevatedButton.styleFrom(
     foregroundColor: AppColors.white,
-    backgroundColor: AppColors.colorShadow,
+    backgroundColor: AppColors.successGreen,
     minimumSize: const Size(88, 36),
     padding: const EdgeInsets.symmetric(horizontal: 64),
     shape: const RoundedRectangleBorder(
